@@ -1,0 +1,35 @@
+.material-symbols-rounded {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.bg-zt-gray,
+.bg-zt-gray:focus {
+    background-color: #F7F7F7 !important;
+}
+
+.text-baslik-gray {
+    color: #5B6770 !important;
+}
+
+.text-zt {
+    color: #292929 !important;
+}
+
+.arrow-devamını-gor {
+    border: 2px solid #292929;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.top-slider-arrow {
+    top: 820px!important;
+}
