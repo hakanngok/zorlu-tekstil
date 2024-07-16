@@ -7080,8 +7080,13 @@ header .left-nav .navbar-nav:before {
   transition: 0.3s;
 }
 header .disable-fixed {
-  position: absolute;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: transparent;
 }
+
 header.sticky .responsive-sticky {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -8083,9 +8088,9 @@ header a.widget-text:hover {
   transform: translate(-50%, -50%);
   transition: none;
 }
-.center-logo .navbar-left, .center-logo .navbar-right {
+/* .center-logo .navbar-left, .center-logo .navbar-right {
   width: 25%;
-}
+} */
 /* Header top logo */
 .top-logo .navbar-brand {
   padding: 22px 0;
