@@ -1,12 +1,6 @@
 /* -------------------------------------------------------
 
-    Theme Name: Crafto - The Multipurpose HTML5 Template
-    Theme URL: https://craftohtml.themezaa.com/
-    Description: Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 48+ ready demos.
-    Author: ThemeZaa - https://www.themezaa.com/
-    Author ThemeForest URL: https://themeforest.net/user/themezaa
-    Copyright(c) 2024 themezaa.com
-    Version: 1.0
+   
 
 ------------------------------------------------------- */
 /*
@@ -131,7 +125,7 @@ ul li {
   list-style: none;
 }
 a {
-  color: var(--medium-gray);
+  color: var(--dark-gray);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-decoration: none;
@@ -142,6 +136,9 @@ a:hover {
 }
 p {
   margin-bottom: 25px;
+	font-size:18px;
+	color: var(--dark-gray);
+	 font-family: var(--alt-font);
 }
 .last-paragraph-no-margin p:last-of-type {
   margin-bottom: 0;
@@ -6992,11 +6989,32 @@ header .navbar.mini-header .navbar-brand img {
   max-height: 22px;
 }
 header .navbar-brand {
-  margin-right: 0;
-  vertical-align: middle;
-  padding: 30px 0;
-  display: inline-block;
-  font-size: 0;
+
+}
+.main-page .navbar-brand{
+  transition: all 300ms;
+  position: relative;
+  z-index:9999;
+}
+.main-page .bg-transparent .navbar-brand{
+  transform: translate(0px, 200px);
+  width: 100%;
+  position: absolute;
+  left:0px
+}
+.navbar-brand img{
+  filter: brightness(0) invert(1);
+}
+.main-page .navbar-brand img{
+  transition:all 800ms;
+  filter: brightness(0) invert(1);
+  max-width: 80%;
+  max-height:none!important;
+  opacity:0.7;
+  margin:0 auto
+}
+.bg-white .navbar-brand img{
+  filter:none
 }
 header .navbar-brand .default-logo {
   visibility: visible;
@@ -8081,12 +8099,7 @@ header a.widget-text:hover {
   align-self: center;
 }
 .center-logo .navbar-brand {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  transition: none;
+
 }
 /* .center-logo .navbar-left, .center-logo .navbar-right {
   width: 25%;

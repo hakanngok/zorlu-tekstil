@@ -1,12 +1,6 @@
 /* -------------------------------------------------------
  
- Theme Name: Crafto - The Multipurpose HTML5 Template
- Theme URL: https://craftohtml.themezaa.com/
- Description: Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 48+ ready demos.
- Author: ThemeZaa - https://www.themezaa.com/
- Author ThemeForest URL: https://themeforest.net/user/themezaa
- Copyright(c) 2024 themezaa.com
- Version: 1.0
+ 
  
  ------------------------------------------------------- */
 
@@ -74,6 +68,8 @@
     setOverLayerPosition();
     setBottomOverLayerPosition(2000);
     setupSwiper();
+
+    checkScroll();
 
     /* ===================================
      Header
@@ -2286,22 +2282,24 @@
 
     $(window).on('scroll', initScrollNavigate);
 
+    function checkScroll(){
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 50) {
+            $('nav.navbar').removeClass('bg-transparent').addClass('bg-white');
+        } else {
+            $('nav.navbar').removeClass('bg-white').addClass('bg-transparent');
+        }
+    }
     // Window scroll Function
     function initScrollNavigate() {
 
 
         var scrollPos = $(window).scrollTop();
-
+        console.log('pos : ',scrollPos);
         // logo
-        var gIABOZ = $(".gIABOZ");
         $(window).scroll(function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 50) {
-                gIABOZ.removeClass('gIABOZ').addClass("iZTpIL");
-            } else {
-                gIABOZ.removeClass("iZTpIL").addClass('gIABOZ');
-            }
+            checkScroll();
         });
 
         // One page navigation

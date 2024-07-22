@@ -1,18 +1,18 @@
 /* ===================================
-    Crafto - Spa salon
+    Zorlu Tekstil
 ====================================== */
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* variable */
 :root {     
-    --base-color: #fb7d61;
+    --base-color: #5b6770;
     --very-light-gray:#EEE8E6;
-    --dark-gray:#36332e;
+    --dark-gray:#292929;
     --medium-gray: #858181;
     --light-medium-gray: #f8f3f0;
-    --alt-font: 'Rufina', serif;
-    --primary-font: 'Jost', sans-serif;
+    --alt-font: 'Jost', sans-serif;
+    --primary-font: "Archivo Black", sans-serif;;
 } 
 /* reset */
 body, html {
@@ -24,9 +24,9 @@ body {
 }
 /* header */
 .navbar .navbar-nav .nav-link {
-    font-size: 19px;
+    font-size: 18px;
     padding: 50px 20px;
-    font-weight: normal;
+   font-family: var(--alt-font);
     letter-spacing: 0.5px;
 }
 header .navbar-brand img {
@@ -122,7 +122,7 @@ h4 {
 }
 /* tab style */
 .tab-style-04 .nav-tabs .nav-item .nav-link, .tab-style-04 .nav-tabs .nav-item .nav-link.active, .tab-style-04 .nav-tabs .nav-item .nav-link.show, .tab-style-04 .nav-tabs .nav-item .nav-link:hover {
-    color: var(--white);
+    color: var(--dark-gray);
 }
 .tab-style-04 .nav-tabs .nav-item {
     padding: 0 16px;
