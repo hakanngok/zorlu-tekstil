@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Carvist">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta name="description"
-        content="Lorem ipsum">
+    <meta name="description" content="Lorem ipsum">
     <!-- favicon icon -->
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
@@ -299,11 +298,12 @@
                                 </li>
                             </ul>
                             <ul class="navbar-nav">
-                                
-                                    <a class="navbar-brand" href="/">
-                                        <img src="images/zorluteks-logo.svg" srcset="images/zorluteks-logo.svg 2x" class="d-block w-100" alt="Zorlu">
-                                    </a>
-                                
+
+                                <a class="navbar-brand" href="/">
+                                    <img src="images/zorluteks-logo.svg" srcset="images/zorluteks-logo.svg 2x"
+                                        class="d-block w-100" alt="Zorlu">
+                                </a>
+
                             </ul>
                             <ul class="navbar-nav navbar-right justify-content-start">
                                 <li class="nav-item dropdown dropdown-with-icon">
@@ -498,12 +498,27 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="text-end">
                         <div class="header-icon">
-
-                            <div class="header-social-icon icon">
-                                <a href="http://www.facebook.com" target="_blank"><span
-                                        class="material-symbols-rounded">search</span></a>
+                            <div class="header-search-icon icon">
+                                <a href="javascript:void(0)" class="search-form-icon header-search-form">
+                                    <i class="feather icon-feather-search"></i>
+                                </a>
+                                <div class="search-form-wrapper">
+                                    <button title="Close" type="button" class="search-close alt-font">×</button>
+                                    <form id="search-form" role="search" method="get" class="search-form text-left" action="search-result.html">
+                                        <div class="search-form-box">
+                                            <h2 class="text-dark-gray text-center mb-5 alt-font fw-600 ls-minus-2px">Ne Arıyorsunuz?</h2>
+                                            <input class="search-input alt-font" id="search-form-input5e219ef164995"
+                                                placeholder="Anahtar kelimenizi girin..." name="s" value="" type="text"
+                                                autocomplete="off">
+                                            <button type="submit" class="search-button">
+                                                <i class="feather icon-feather-search" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -511,9 +526,9 @@
             </div>
         </nav>
     </header>
-		
-		<!-- end header -->
-    
+
+    <!-- end header -->
+
     <!-- start banner slider -->
     <section class="p-0 bg-dark-gray">
         <div class="swiper full-screen ipad-top-space-margin md-h-600px sm-h-500px swiper-number-pagination-style-01 magic-cursor drag-cursor base-color"
@@ -527,26 +542,25 @@
                         data-anime='{ "translateY": [0, 0], "opacity": [1,1], "scale": [1,1.1], "duration": 7000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     </div>
                     <div class="opacity-light bg-gradient-nero-grey-brown"></div>
-                    
                 </div>
-				<div class="swiper-slide">
+                <div class="swiper-slide">
                     <div class="position-absolute left-0px top-0px w-100 h-100 cover-background"
                         style="background-image:url('images/main-slider-2.jpg');"
                         data-anime='{ "translateY": [0, 0], "opacity": [1,1], "scale": [1,1.1], "duration": 7000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     </div>
                     <div class="opacity-light bg-gradient-nero-grey-brown"></div>
-                    
+
                 </div>
-				
-				<div class="swiper-slide">
+
+                <div class="swiper-slide">
                     <div class="position-absolute left-0px top-0px w-100 h-100 cover-background"
                         style="background-image:url('images/main-slider-3.jpg');"
                         data-anime='{ "translateY": [0, 0], "opacity": [1,1], "scale": [1,1.1], "duration": 7000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     </div>
                     <div class="opacity-light bg-gradient-nero-grey-brown"></div>
-                    
+
                 </div>
-            
+
             </div>
             <!-- start slider pagination -->
             <div
@@ -565,8 +579,8 @@
             <!-- end slider navigation -->
         </div>
     </section>
-		
-		 <!-- end banner slider -->
+
+    <!-- end banner slider -->
     <!-- start section -->
     <section class="bg-zt-gray overflow-hidden">
         <div class="container">
@@ -602,7 +616,7 @@
                                             <img src="images/uretim-2.jpg" alt="" />
                                         </div>
                                     </div>
-                                   <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
+                                    <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
                                         Tekstili</a>
                                 </div>
                                 <!-- end content carousal item -->
@@ -613,7 +627,7 @@
                                             <img src="images/uretim-3.jpg" alt="" />
                                         </div>
                                     </div>
-                                   <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
+                                    <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
                                         Tekstili</a>
                                 </div>
                                 <!-- end content carousal item -->
@@ -624,7 +638,7 @@
                                             <img src="https://via.placeholder.com/410x505" alt="" />
                                         </div>
                                     </div>
-                                   <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
+                                    <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
                                         Tekstili</a>
                                 </div>
                                 <!-- end content carousal item -->
@@ -635,7 +649,7 @@
                                             <img src="https://via.placeholder.com/410x505" alt="" />
                                         </div>
                                     </div>
-                                   <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
+                                    <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
                                         Tekstili</a>
                                 </div>
                                 <!-- end content carousal item -->
@@ -646,7 +660,7 @@
                                             <img src="https://via.placeholder.com/410x505" alt="" />
                                         </div>
                                     </div>
-                                   <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
+                                    <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
                                         Tekstili</a>
                                 </div>
                                 <!-- end content carousal item -->
@@ -657,7 +671,7 @@
                                             <img src="https://via.placeholder.com/410x505" alt="" />
                                         </div>
                                     </div>
-                                   <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
+                                    <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
                                         Tekstili</a>
                                 </div>
                                 <!-- end content carousal item -->
@@ -668,7 +682,7 @@
                                             <img src="https://via.placeholder.com/410x505" alt="" />
                                         </div>
                                     </div>
-                                   <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
+                                    <a href="#" class="fs-24 d-block mt-20px fw-400 alt-font text-dark-gray">Yatak
                                         Tekstili</a>
                                 </div>
                                 <!-- end content carousal item -->
@@ -708,13 +722,14 @@
                         <li class="grid-item">
                             <div class="card bg-transparent border-0 h-100">
                                 <div class="blog-image position-relative overflow-hidden ">
-                                    <a href="demo-accounting-blog-single-creative.html">
+                                    <a href="haber-detay.html">
                                         <img src="images/haber-1.jpg" alt="" />
                                     </a>
                                 </div>
                                 <div class="card-body px-0 pt-30px pb-0 xs-pb-15px last-paragraph-no-margin">
-                                    <a href="demo-accounting-blog-single-creative.html"
-                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">High returns on investment</a>
+                                    <a href="haber-detay.html"
+                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">High
+                                        returns on investment</a>
                                 </div>
                             </div>
                         </li>
@@ -726,7 +741,7 @@
                         <h2 class="text-base-color fw-400 ls-minus-1px">En Son <br> Haberler</h2>
                     </div>
                     <div>
-                        <a href="news.html"
+                        <a href="haberler.html"
                             class="btn btn-link btn-hover-animation-switch btn-large btn-icon-left text-uppercase-inherit">
                             <span>
                                 <span class="btn-text fs-16 fw-500 alt-font text-dark-gray ">Devamını Gör</span>
@@ -751,39 +766,42 @@
                         <li class="grid-item">
                             <div class="card bg-transparent border-0 h-100">
                                 <div class="blog-image position-relative overflow-hidden ">
-                                    <a href="demo-accounting-blog-single-creative.html">
+                                    <a href="haber-detay.html">
                                         <img src="images/haber-1.jpg" alt="" />
                                     </a>
                                 </div>
                                 <div class="card-body px-0 pt-30px pb-30px xs-pb-15px last-paragraph-no-margin">
-                                    <a href="demo-accounting-blog-single-creative.html"
-                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">High returns on investment</a>
+                                    <a href="haber-detay.html"
+                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">High
+                                        returns on investment</a>
                                 </div>
                             </div>
                         </li>
                         <li class="grid-item">
                             <div class="card bg-transparent border-0 h-100">
                                 <div class="blog-image position-relative overflow-hidden ">
-                                    <a href="demo-accounting-blog-single-creative.html">
+                                    <a href="haber-detay.html">
                                         <img src="images/haber-1.jpg" alt="" />
                                     </a>
                                 </div>
                                 <div class="card-body px-0 pt-30px pb-30px xs-pb-15px last-paragraph-no-margin">
-                                    <a href="demo-accounting-blog-single-creative.html"
-                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">Made businesses efficient</a>
+                                    <a href="haber-detay.html"
+                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">Made
+                                        businesses efficient</a>
                                 </div>
                             </div>
                         </li>
                         <li class="grid-item">
                             <div class="card bg-transparent border-0 h-100">
                                 <div class="blog-image position-relative overflow-hidden ">
-                                    <a href="demo-accounting-blog-single-creative.html">
+                                    <a href="haber-detay.html">
                                         <img src="images/haber-1.jpg" alt="" />
                                     </a>
                                 </div>
                                 <div class="card-body px-0 pt-30px pb-30px xs-pb-15px last-paragraph-no-margin">
-                                    <a href="demo-accounting-blog-single-creative.html"
-                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">Business meeting 2024</a>
+                                    <a href="haber-detay.html"
+                                        class="card-title mb-5px fs-24 fw-400 alt-font text-dark-gray text-zt d-block">Business
+                                        meeting 2024</a>
                                 </div>
                             </div>
                         </li>
@@ -801,23 +819,23 @@
                     <h2 class=" text-base-color fw-400 ls-minus-1px shadow-none" data-shadow-animation="true"
                         data-animation-delay="700">Zorlu Tekstil Hakkında</h2>
                     <p class="fs-18 text-dark-gray alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                   <a href="news.html"
-                            class="btn btn-link btn-hover-animation-switch btn-large btn-icon-left text-uppercase-inherit">
-                            <span>
-                                <span class="btn-text fs-16 fw-500 alt-font text-dark-gray ">Devamını Gör</span>
-                                <span
-                                    class="btn-icon d-flex align-items-center justify-content-center arrow-devamını-gor"><i
-                                        class="fa fa-arrow-right  text-dark-gray "></i></span>
-                                <span
-                                    class="btn-icon d-flex align-items-center justify-content-center arrow-devamını-gor"><i
-                                        class="fa fa-arrow-right  text-dark-gray "></i></span>
-                            </span>
-                        </a>
+                    <a href="haberler.html"
+                        class="btn btn-link btn-hover-animation-switch btn-large btn-icon-left text-uppercase-inherit">
+                        <span>
+                            <span class="btn-text fs-16 fw-500 alt-font text-dark-gray ">Devamını Gör</span>
+                            <span
+                                class="btn-icon d-flex align-items-center justify-content-center arrow-devamını-gor"><i
+                                    class="fa fa-arrow-right  text-dark-gray "></i></span>
+                            <span
+                                class="btn-icon d-flex align-items-center justify-content-center arrow-devamını-gor"><i
+                                    class="fa fa-arrow-right  text-dark-gray "></i></span>
+                        </span>
+                    </a>
                 </div>
                 <div class="col-lg-6 offset-lg-1 position-relative"
                     data-anime='{ "effect": "slide", "color": "#5b6770", "direction":"lr", "easing": "easeOutQuad", "delay":50}'>
                     <!-- start popup video -->
-                  <img src="images/zorlu-tekstil-hakkinda.jpg">
+                    <img src="images/zorlu-tekstil-hakkinda.jpg">
                 </div>
             </div>
         </div>
@@ -832,9 +850,11 @@
                     <a href="" class="mb-15px d-inline-block">
                         <img src="images/zorluteks-logo.svg" data-at2x="images/zorluteks-logo.svg" alt="" width="240">
                     </a>
-                    <p class="lh-28 mb-5 fs-16 mt-2 ">Zorluteks Tekstil Ticaret Ve Sanayi A.Ş. Levent 199, Büyükdere Caddesi, No:199
+                    <p class="lh-28 mb-5 fs-16 mt-2 ">Zorluteks Tekstil Ticaret Ve Sanayi A.Ş. Levent 199, Büyükdere
+                        Caddesi, No:199
                         34394 Şişli - İSTANBUL</p>
-                    <a href="mailto:info@zorlutekstil.com.tr" class="lh-28 mb-5 fs-16 alt-font">info@zorlutekstil.com.tr</a>
+                    <a href="mailto:info@zorlutekstil.com.tr"
+                        class="lh-28 mb-5 fs-16 alt-font">info@zorlutekstil.com.tr</a>
                     <a href="tel:08502020108" class="lh-28 fs-16 alt-font">0850 202 01 08</a>
                 </div>
                 <div class="col-lg-9 col-md-8 col-sm-6">
